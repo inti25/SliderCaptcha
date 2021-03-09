@@ -12,7 +12,7 @@
 
 ## 在线演示
 单页面演示：http://longbowenterprise.gitee.io/slidercaptcha/  
-项目内演示：http://admin.blazor.zone/ (本项目为开源后台管理框架 [[BootstrapAdmin](https://gitee.com/LongbowEnterprise/BootstrapAdmin)])  
+项目内演示：http://admin.blazor.zone/ (本项目为开源后台管理框架 [[BootstrapAdmin](https://gitee.com/dotnetchina/BootstrapAdmin)])  
 **输入三次错误密码后第四次出现滑块式行为验证码**  
 
 ## 效果图
@@ -173,7 +173,7 @@ sliderCaptcha({
         return 'https://imgs.blazor.zone/images/Pic' + Math.round(Math.random() * 136) + '.jpg';
     },
     onSuccess: function () {
-        window.location.href = 'https://gitee.com/LongbowEnterprise/SliderCaptcha';
+        window.location.href = 'https://gitee.com/dotnetchina/SliderCaptcha';
     },
     remoteUrl: "api/Captcha"
 });
@@ -238,7 +238,7 @@ public class SliderCaptchaController {
 
 示例代码中演示的是前端提交用户滑动轨迹到服务器端进行了 Y 轴的平方差校验，为零时才返回 false，否则返回 true，为 true 表示 Y 轴有偏移，简单的认为此操作是人为操作，因为人手拖动过程中的抖动 Y 轴理论上是不可能没有偏移的。因此依据此值进行是否是人为拖动滑块。
 
-[相关问题](https://gitee.com/LongbowEnterprise/SliderCaptcha/issues/I110MF?from=project-issue)  
+[相关问题](https://gitee.com/dotnetchina/SliderCaptcha/issues/I110MF?from=project-issue)  
 
 ## 参与贡献
 
