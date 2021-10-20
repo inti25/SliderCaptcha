@@ -167,7 +167,7 @@ sliderCaptcha({
         return 'https://imgs.blazor.zone/images/Pic' + Math.round(Math.random() * 136) + '.jpg';
     },
     onSuccess: function () {
-        window.location.href = 'https://gitee.com/dotnetchina/SliderCaptcha';
+        window.location.href = 'https://gitee.com/LongbowEnterprise/SliderCaptcha';
     },
     remoteUrl: "api/Captcha"
 });
@@ -228,7 +228,7 @@ public class SliderCaptchaController {
 
 ## Q&A
 
-[linked issue](https://gitee.com/dotnetchina/SliderCaptcha/issues/I110MF?from=project-issue)  
+[linked issue](https://gitee.com/LongbowEnterprise/SliderCaptcha/issues/I110MF?from=project-issue)  
 
 ## Contribution
 
